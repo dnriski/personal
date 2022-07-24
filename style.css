@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;600;700&family=Pacifico&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
+*{
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-family: 'Pacifico', cursive;
+    color: #f5f0e1;
+
+}
+
+
+.navbar{
+    position: relative;
+    z-index: 99;
+}
+
+a.riski{
+    color: #1e3d59 !important;
+    font-family: 'Edu NSW ACT Foundation' !important;
+    font-family: 'Pacifico', cursive;
+    font-weight: 600;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+a{
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
+    font-size: 20px;
+    color: #f5f0e1;
+}
+
+.menu{
+    margin-left: 50%;
+}
+.features{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.jumbotron{
+    background-color: #1e3d59;
+    height: 600px;
+    margin-top: -80px;
+}
+.riskidn{
+    color: #ffc13b !important;
+}
+
+.jumbotron2{
+    background-color: #f5f0e1;
+    position: absolute;
+    margin-right: auto;
+    width: 30%;
+    margin-top: -840px;
+    height: 800px;
+    border:20px dashed #1e3d59;
+    border-left: none;
+}
+
+.content2{
+    z-index: 99;
+}
+
+.moon{
+    margin-top: 90%;
+    margin-left: 10%;
+}
+
+.note{
+    width: 250px;
+    margin-left: 70%;
+    border-radius: 30%;
+    margin-top: -30%;
+    border:15px dashed #ffc13b;
+}
+
+
+.content{
+    margin-top: 13%;
+    margin-left: 50%;
+}
+
+.svg {
+    margin-top: -35px;
+    margin-bottom: -90px;
+}
+
+.main{
+    margin-top: 30px;
+    height: 800px;
+    background-color: #ffc13b;
+    z-index: 99;
+    position: relative;
+}
+.ladder{
+    position: absolute;
+    margin-left: -40%;
+    margin-top: -100px;
+}
+
+#project{
+    text-align: center;
+    color: #1e3d59;
+}
+
+.cardHobies{
+    width: 400px;
+    height: 300px;
+    background-color: #1e3d59 !important;
+}
+
+.article{
+    background-color: #ff6e40;
+    height: 800px;
+}
+
+.description{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.footer{
+    background-color: #1e3d59;
+    height: 700px;
+}
+
+@media screen and (min-width:800px) and (max-width:1105px){
+    .jumbotron{
+        margin-top: -100px;
+    }
+    a.riski{
+        font-size: 20px;
+    }
+
+    .note{
+        margin-top: 120%;
+        width: 200px;
+    }
+    .description{
+        font-size: 35px;
+    }
+    .menu{
+        margin-left: 40%;
+    }
+}
+
+@media screen and (max-width:800px){
+    .jumbotron2{
+        width: 0px;
+        margin-left: -200px;
+    }
+    .jumbotron{
+        margin-top: -150px;
+    }
+    .note{
+        width: 0px;
+    }
+    a.riski{
+        color: #f5f0e1 !important;
+    }
+    
+.content{
+    margin-top: 20%;
+    margin-left: auto;
+}
+.menu{
+    display: none;
+}
+.navbawah{
+    visibility: visible;
+}
+}
