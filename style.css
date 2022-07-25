@@ -85,7 +85,7 @@ a{
 
 .main{
     margin-top: 30px;
-    height: 900px;
+    height: 1000px;
     background-color: #ffc13b;
     z-index: 99;
     position: relative;
@@ -98,8 +98,9 @@ a{
 
 #project{
     text-align: center;
-    color: #1e3d59;
+    color: #1e3d59 ;
 }
+
 
 .cardHobies{
     width: 400px;
@@ -107,16 +108,42 @@ a{
     background-color: #1e3d59 !important;    
     font-family: 'Roboto Mono', monospace !important;
     border-radius: 30%;
-    border: 8px solid #ff6e40;
+    border: 8px solid #f5f0e1;
 
 }
 .card-header{
-    background-color: #ff6e40;
+    background-color: #f5f0e1;
 }
 
 .article{
-    background-color: #ff6e40;
+    background-color: #f5f0e1;
+    margin-top: -50px;
     height: 800px;
+}
+
+.container{
+    margin-top: -70px;
+}
+
+.mygoals{
+    text-align: center;
+    width: 400px;
+    border: 2px solid #1e3d59;
+    box-shadow: 10px 10px #1e3d59;
+}
+
+.text{
+    color: #1e3d59 !important;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 900;
+    font-size: 50px;
+}
+.text2{
+    color: #1e3d59 !important;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 200%;
 }
 
 .description{
