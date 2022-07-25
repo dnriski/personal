@@ -3,7 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
 *{
     color: #f5f0e1;
-
 }
 
 
@@ -24,7 +23,7 @@ a.riski{
 a{
     font-family: Georgia, 'Times New Roman', Times, serif !important;
     font-size: 20px;
-    color: #f5f0e1;
+    color: #f5f0e1 !important;
 }
 
 .menu{
@@ -72,6 +71,10 @@ a{
     border:15px dashed #ffc13b;
 }
 
+.note2{
+    width: 0px;
+    border:15px dashed #ffc13b;
+}
 
 .content{
     margin-top: 13%;
@@ -85,7 +88,7 @@ a{
 
 .main{
     margin-top: 30px;
-    height: 1000px;
+    height: 850px;
     background-color: #ffc13b;
     z-index: 99;
     position: relative;
@@ -103,8 +106,8 @@ a{
 
 
 .cardHobies{
-    width: 400px;
-    height: 300px;
+    width: 300px;
+    height: 250px;
     background-color: #1e3d59 !important;    
     font-family: 'Roboto Mono', monospace !important;
     border-radius: 30%;
@@ -113,23 +116,36 @@ a{
 }
 .card-header{
     background-color: #f5f0e1;
+    color: #1e3d59;
+    font-size: 20px;
 }
+.card-title, .card-text{
+    font-size: 15px;
+}
+
 
 .article{
     background-color: #f5f0e1;
-    margin-top: -50px;
-    height: 800px;
+    margin-top: -40px;
+    height: 850px;
 }
 
-.container{
+.plane{
+    margin-left: 75%;
+    margin-bottom: 60px;
+    margin-top: -200px;
+
+}
+
+.container1{
     margin-top: -70px;
 }
 
 .mygoals{
     text-align: center;
     width: 400px;
-    border: 2px solid #1e3d59;
-    box-shadow: 10px 10px #1e3d59;
+    border: 10px dashed #ff6e40;
+    box-shadow: 15px 15px #ffc13b;
 }
 
 .text{
@@ -164,9 +180,11 @@ a{
     a.riski{
         font-size: 20px;
     }
-
-    .note{
+    .moon{
         margin-top: 120%;
+    }
+    .note{
+        margin-top: -10%;
         width: 200px;
     }
     .description{
@@ -175,31 +193,165 @@ a{
     .menu{
         margin-left: 40%;
     }
+    .ladder{
+        width: 300px;
+        height: 300px;
+        margin-left: -35%;
+        margin-top :-130px; ;
+    }
+    .plane{
+        margin-top: -150px;
+    }
 }
 
-@media screen and (max-width:800px){
+
+@media screen and (max-width:991px){
+    .mygoals{
+        margin-bottom: 20px;
+    }
+    .article{
+        height: 1000px;
+    }
+    .moon{
+        margin-top: 150%;
+    }
+    .plane{
+        margin-top: -120px;
+    }
+}
+
+
+
+
+@media screen and (min-width:675px) and (max-width:799px){
     .jumbotron2{
-        width: 0px;
-        margin-left: -200px;
+        display: none;
     }
     .jumbotron{
         margin-top: -150px;
+        height: 800px;
     }
+    
     .note{
-        width: 0px;
+        margin: auto;
+        width: 200px !important;
     }
     a.riski{
         color: #f5f0e1 !important;
     }
+    .note2{
+        width: 250px;
+        margin: auto;
+        border-radius: 30%;
+        border:15px dashed #ffc13b;
+    }
     
+
 .content{
     margin-top: 20%;
     margin-left: auto;
 }
-.menu{
-    display: none;
+.navbar{
+    background-color: #1e3d59 !important;
 }
-.navbawah{
-    visibility: visible;
+
+.ladder{
+    width: 260px;
+    height: 260px;
+    margin-left: -40%;
+    margin-top :-130px; ;
+}
+
+.cardHobies{
+    margin-bottom:15px;
+    width: 400px;
+}
+.main{
+    height: 1000px;
+}
+.plane{
+    margin-top: -100px;
+    margin-bottom: 100px;
+}
+.article{
+    height: 1200px;
 }
 }
+
+@media screen and (max-width:674px) {
+    .jumbotron2{
+        display: none;
+    }
+    .jumbotron{
+        margin-top: -85px;
+        height: 750px;
+    }
+ 
+    .description{
+        font-size: 30px;
+    }
+
+    #project{
+        margin-top: 40px;
+    }
+
+    a.riski{
+        color: #f5f0e1 !important;
+    }
+    .note2{
+        width: 250px;
+        margin: auto;
+        border-radius: 30%;
+        border:15px dashed #ffc13b;
+    }
+    
+
+.content{
+    margin-top: 20%;
+    margin-left: auto;
+}
+.navbar{
+    background-color: #1e3d59 !important;
+}
+
+.ladder{
+    width: 160px;
+    height: 160px;
+    margin-left: -50%;
+    margin-top :-90px; ;
+}
+
+.cardHobies{
+    margin-bottom:15px;
+    width: 400px;
+}
+.main{
+    margin-top: -80px;
+    height: 1050px;
+}
+.down{
+    width: 60px;
+    height: 60px;
+}
+.plane{
+    width: 80px;
+    height: 80px;
+    margin-top: -70px;
+    margin-bottom: 80px;
+}
+.article{
+    margin-top: -10px;
+    height: 1250px;
+}    
+.mygoals{
+    width: 250px;
+}
+a.riski{
+    font-size: 15px;
+}
+.svg{
+    margin-top: -50px;
+}
+}
+
+
