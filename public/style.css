@@ -162,6 +162,7 @@ a{
     line-height: 200%;
 }
 
+
 .description{
     font-family: 'Roboto Mono', monospace;
     font-weight: 900;
@@ -171,6 +172,22 @@ a{
 .footer{
     background-color: #1e3d59;
     height: 700px;
+}
+
+.footer-content{
+    margin-left: 2%;
+    height: 62%;
+    width: 96%;
+    background: #ffc13b;
+    border-radius: 10%;
+    border: 10px dashed #ff6e40;
+    display: flex;
+    align-items: center;
+    color: #1e3d59;
+}
+.cpy{
+   text-align: center ;
+   margin-top: 10px;
 }
 
 @media screen and (min-width:800px) and (max-width:1105px){
@@ -217,6 +234,9 @@ a{
     }
     .plane{
         margin-top: -120px;
+    }
+    .container1{
+        height: 50%;
     }
 }
 
